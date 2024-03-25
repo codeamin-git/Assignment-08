@@ -1,8 +1,9 @@
+import NavBar from "../NavBar/NavBar";
 
 const Root = () => {
     return (
         <div>
-            <h1 className="text-3xl font-bold underline">this is from root file</h1>
+            <NavBar></NavBar>
         </div>
     );
 };
