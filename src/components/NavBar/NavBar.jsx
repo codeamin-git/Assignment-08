@@ -2,9 +2,12 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
     const links= <>
-    <li><NavLink className="btn btn-ghost font-normal text-lg" to="/">Home</NavLink></li>
-    <li><NavLink className="btn btn-ghost font-normal text-lg" to="/listedBooks">Listed Books</NavLink></li>
-    <li><NavLink className="btn btn-ghost font-normal text-lg" to="/pagesToRead">Pages to Read</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
+    to="/">Home</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
+    to="/listedBooks">Listed Books</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
+    to="/pagesToRead">Pages to Read</NavLink></li>
     </>
     return ( 
         <div className="navbar bg-base-100 flex flex-col md:flex-row">

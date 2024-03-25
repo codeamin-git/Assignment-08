@@ -1,13 +1,12 @@
-import { Outlet } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 
-const Root = () => {
+const BookDetails = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <Outlet></Outlet>
+            <h1 className="text-8xl text-center">Book details</h1>
         </div>
     );
 };
 
-export default Root;
+export default BookDetails;

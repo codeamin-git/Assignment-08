@@ -1,4 +1,3 @@
-import { data } from "autoprefixer";
 import { useEffect, useState } from "react";
 import Book from "../Book/Book";
 
@@ -13,7 +12,7 @@ const Books = () => {
         <div>
             <h2 className="text-4xl font-bold text-center">Books</h2>
 
-            <div>
+            <div className="grid md:grid-cols-3 gap-6 mt-9">
                 {
                     books.map(book => 
                     <Book 
