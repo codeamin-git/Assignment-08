@@ -20,7 +20,8 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: () => fetch('/books.json')
       },
       {
         path: "/listedBooks",
@@ -30,12 +31,14 @@ const router = createBrowserRouter([
         path: "/pagesToRead",
         element: <PagesToRead></PagesToRead>
       },
+      {
+        path: '/bookDetails/:bookId',
+        element: <BookDetails></BookDetails>,
+        loader: () => fetch(`/books.json`)
+      }
     ]
   },
-  {
-    path: '/bookDetails/:id',
-    element: <BookDetails></BookDetails>
-  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
