@@ -1,120 +1,120 @@
 [
-    {
+  {
       "bookId": 1,
       "bookName": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "image": "https://i.ibb.co/Q8GG6Nc/book-1.png",
-      "review": "A timeless classic that addresses themes of racial injustice and moral growth.",
+      "review": "A profound exploration of racial injustice, moral growth, and the human condition in the American South during the 1930s. Through the eyes of young Scout Finch, readers are immersed in a gripping narrative that challenges societal norms and confronts deeply ingrained prejudices. Harper Lee's timeless classic continues to resonate with readers of all ages, offering poignant insights into the complexities of humanity.",
       "totalPages": 281,
       "rating": 4.5,
       "category": "Fiction",
       "tags": ["Classic", "Legal Drama"],
       "publisher": "J. B. Lippincott & Co.",
       "yearOfPublishing": 1960
-    },
-    {
+  },
+  {
       "bookId": 2,
       "bookName": "1984",
       "author": "George Orwell",
       "image": "https://i.ibb.co/KrbdCgT/book-2.png",
-      "review": "A dystopian novel exploring themes of totalitarianism and surveillance.",
+      "review": "George Orwell's dystopian masterpiece, 1984, presents a chilling vision of a totalitarian regime where individuality is suppressed, and Big Brother reigns supreme. Through the eyes of protagonist Winston Smith, readers are transported to a world of constant surveillance, propaganda, and thought control. As Winston rebels against the oppressive regime, Orwell delves into themes of power, manipulation, and the nature of truth. 1984 remains a haunting reminder of the dangers of unchecked authority and serves as a stark warning against the erosion of freedom and democracy.",
       "totalPages": 328,
       "rating": 4.7,
       "category": "Science Fiction",
       "tags": ["Dystopian", "Political"],
       "publisher": "Secker & Warburg",
       "yearOfPublishing": 1949
-    },
-    {
+  },
+  {
       "bookId": 3,
       "bookName": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
       "image": "https://i.ibb.co/89ZL109/book-3.png",
-      "review": "An exploration of the American Dream and the excesses of the Jazz Age.",
+      "review": "F. Scott Fitzgerald's masterpiece, The Great Gatsby, is a captivating portrayal of the Roaring Twenties and the pursuit of the American Dream. Set amidst the opulence and extravagance of the Jazz Age, the novel follows the enigmatic Jay Gatsby as he seeks to win back the love of his life, Daisy Buchanan. Through the lens of narrator Nick Carraway, readers are drawn into a world of glamour, decadence, and moral decay. Fitzgerald's lyrical prose and keen observations of society make The Great Gatsby a timeless classic that continues to resonate with readers today.",
       "totalPages": 180,
       "rating": 4.2,
       "category": "Fiction",
       "tags": ["Classic", "Romance"],
       "publisher": "Charles Scribner's Sons",
       "yearOfPublishing": 1925
-    },
-    {
+  },
+  {
       "bookId": 4,
       "bookName": "Pride and Prejudice",
       "author": "Jane Austen",
       "image": "https://i.ibb.co/DGjtT86/book-4.png",
-      "review": "A witty and romantic novel exploring social class and gender roles in early 19th-century England.",
+      "review": "Jane Austen's timeless masterpiece, Pride and Prejudice, is a witty and romantic novel that explores the intricacies of social class, gender roles, and the pursuit of love in early 19th-century England. Through the spirited Elizabeth Bennet and the enigmatic Mr. Darcy, Austen delves into themes of prejudice, pride, and the transformative power of love. With its sharp social commentary and memorable characters, Pride and Prejudice remains one of the most beloved and enduring works of English literature.",
       "totalPages": 279,
       "rating": 4.4,
       "category": "Fiction",
       "tags": ["Classic", "Romance"],
       "publisher": "T. Egerton, Whitehall",
       "yearOfPublishing": 1813
-    },
-    {
+  },
+  {
       "bookId": 5,
       "bookName": "The Catcher in the Rye",
       "author": "J.D. Salinger",
       "image": "https://i.ibb.co/k47fmPg/book-5.png",
-      "review": "A coming-of-age novel that explores themes of alienation and teenage angst.",
+      "review": "J.D. Salinger's The Catcher in the Rye is a timeless coming-of-age novel that explores the complexities of adolescence, identity, and alienation. Through the rebellious Holden Caulfield, readers are confronted with themes of existential angst, disillusionment, and the search for authenticity in a world filled with phoniness. Salinger's masterful prose and poignant portrayal of teenage rebellion continue to resonate with readers of all generations, making The Catcher in the Rye a modern classic that remains as relevant today as it was upon its publication.",
       "totalPages": 224,
       "rating": 4.3,
       "category": "Fiction",
       "tags": ["Coming-of-age", "Bildungsroman"],
       "publisher": "Little, Brown and Company",
       "yearOfPublishing": 1951
-    },
-    {
+  },
+  {
       "bookId": 6,
       "bookName": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "image": "https://i.ibb.co/CP50D03/book-6.png",
-      "review": "A timeless classic that addresses themes of racial injustice and moral growth.",
+      "review": "A profound exploration of racial injustice, moral growth, and the human condition in the American South during the 1930s. Through the eyes of young Scout Finch, readers are immersed in a gripping narrative that challenges societal norms and confronts deeply ingrained prejudices. Harper Lee's timeless classic continues to resonate with readers of all ages, offering poignant insights into the complexities of humanity.",
       "totalPages": 281,
       "rating": 4.5,
       "category": "Fiction",
       "tags": ["Classic", "Legal Drama"],
       "publisher": "J. B. Lippincott & Co.",
       "yearOfPublishing": 1960
-    },
-    {
-      "bookId": 7,
-      "bookName": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "image": "https://i.ibb.co/ckP76Pk/book-7.png",
-      "review": "A coming-of-age novel that explores themes of alienation and teenage angst.",
-      "totalPages": 224,
-      "rating": 4.3,
-      "category": "Fiction",
-      "tags": ["Coming-of-age", "Bildungsroman"],
-      "publisher": "Little, Brown and Company",
-      "yearOfPublishing": 1951
-    },
-    {
-      "bookId": 8,
-      "bookName": "1984",
-      "author": "George Orwell",
-      "image": "https://i.ibb.co/PCqjFWh/book-8.png",
-      "review": "A dystopian novel exploring themes of totalitarianism and surveillance.",
-      "totalPages": 328,
-      "rating": 4.7,
-      "category": "Science Fiction",
-      "tags": ["Dystopian", "Political"],
-      "publisher": "Secker & Warburg",
-      "yearOfPublishing": 1949
-    },
-    {
-        "bookId": 9,
-        "bookName": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
-        "image": "https://i.ibb.co/52fV7nY/book-9.png",
-        "review": "A fantasy epic set in the world of Middle-earth, following the journey of a hobbit named Frodo Baggins as he seeks to destroy the One Ring and defeat the Dark Lord Sauron.",
-        "totalPages": 1178,
-        "rating": 4.8,
-        "category": "Fantasy",
-        "tags": ["Epic", "Adventure"],
-        "publisher": "Allen & Unwin",
-        "yearOfPublishing": 1954
-      }
-]      
-  
+  },
+  {
+    "bookId": 7,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/ckP76Pk/book-7.png",
+    "review": "J.D. Salinger's The Catcher in the Rye is a timeless coming-of-age novel that explores the complexities of adolescence, identity, and alienation. Through the rebellious Holden Caulfield, readers are confronted with themes of existential angst, disillusionment, and the search for authenticity in a world filled with phoniness. Salinger's masterful prose and poignant portrayal of teenage rebellion continue to resonate with readers of all generations, making The Catcher in the Rye a modern classic that remains as relevant today as it was upon its publication.",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Coming-of-age", "Bildungsroman"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+},
+{
+    "bookId": 8,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/PCqjFWh/book-8.png",
+    "review": "George Orwell's dystopian masterpiece, 1984, presents a chilling vision of a totalitarian regime where individuality is suppressed, and Big Brother reigns supreme. Through the eyes of protagonist Winston Smith, readers are transported to a world of constant surveillance, propaganda, and thought control. As Winston rebels against the oppressive regime, Orwell delves into themes of power, manipulation, and the nature of truth. 1984 remains a haunting reminder of the dangers of unchecked authority and serves as a stark warning against the erosion of freedom and democracy.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Science Fiction",
+    "tags": ["Dystopian", "Political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+},
+{
+    "bookId": 9,
+    "bookName": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "image": "https://i.ibb.co/52fV7nY/book-9.png",
+    "review": "J.R.R. Tolkien's epic fantasy masterpiece, The Lord of the Rings, is a sweeping tale of courage, friendship, and the battle between good and evil. Set in the enchanting world of Middle-earth, the story follows the quest of a humble hobbit named Frodo Baggins as he embarks on a perilous journey to destroy the One Ring and save the world from darkness. Along the way, Frodo is joined by a diverse fellowship of characters, each with their own strengths and weaknesses. Tolkien's richly imagined world, intricate mythology, and timeless themes of heroism and sacrifice have captivated readers for generations, making The Lord of the Rings one of the most beloved and enduring works of fantasy literature.",
+    "totalPages": 1178,
+    "rating": 4.8,
+    "category": "Fantasy",
+    "tags": ["Epic", "Adventure"],
+    "publisher": "Allen & Unwin",
+    "yearOfPublishing": 1954
+  }
+]
+
