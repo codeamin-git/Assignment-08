@@ -1,9 +1,10 @@
 import { SlLocationPin } from "react-icons/sl";
 import { GoPeople } from "react-icons/go";
 import { PiBookOpenTextThin } from "react-icons/pi";
+import { Link, useParams } from "react-router-dom";
 const ReadList = ({ book }) => {
     console.log(book);
-    const { image, bookName, author, category, tags, totalPages, publisher, yearOfPublishing, rating } = book
+    const {bookId, image, bookName, author, category, tags, totalPages, publisher, yearOfPublishing, rating } = book
     return (
         <div className="border rounded-2xl p-4">
             <div className="hero-content flex-col lg:flex-row">
@@ -38,7 +39,9 @@ const ReadList = ({ book }) => {
                     <div className="flex items-center gap-4 flex-col md:flex-row">
                         <button className="font-medium rounded-full text-[#328EFF] bg-[#328EFF26] px-4 py-2">Category: {category}</button>
                         <button className="font-medium rounded-full text-[#FFAC33] bg-[#FFAC3326] px-4 py-2">Rating: {rating}</button>
-                        <button className="font-medium rounded-full text-white bg-[#23BE0A] px-4 py-2">View Details</button>
+                        <Link to={`/bookDetails/${bookId}`}>
+                            <button className="font-medium rounded-full text-white bg-[#23BE0A] px-4 py-2">View Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>

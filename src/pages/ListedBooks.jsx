@@ -6,7 +6,7 @@ import ReadList from '../components/ReadList/ReadList';
 import WishList from '../components/WishList/WishList';
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import sortBy from 'sort-by';
+
 const ListedBooks = () => {
     const books = useLoaderData()
     const [readBooks, setReadBooks] = useState([])
