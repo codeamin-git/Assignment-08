@@ -55,7 +55,7 @@ const ListedBooks = () => {
                 </TabList>
 
                 <TabPanel>
-                    <div>
+                    <div className='space-y-4'>
                         {
                             readBooks.map(book => <ReadList key={book.bookId} book={book}></ReadList>)
                         }
