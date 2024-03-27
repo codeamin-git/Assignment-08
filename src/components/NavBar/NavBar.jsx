@@ -8,6 +8,11 @@ const NavBar = () => {
     to="/listedBooks">Listed Books</NavLink></li>
     <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
     to="/pagesToRead">Pages to Read</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
+    to="/bookFair">Book Fair</NavLink></li>
+    <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
+    to="/bestSeller">Best Seller</NavLink></li>
+    
     </>
     return ( 
         <div className="navbar bg-base-100 flex flex-col md:flex-row">

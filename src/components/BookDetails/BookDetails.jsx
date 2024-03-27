@@ -39,7 +39,7 @@ const BookDetails = () => {
         <div className="hero">
             <div className="flex items-center flex-col lg:flex-row space-y-6 justify-around">
                 <div className="">
-                    <img src={image} className="max-w-sm rounded-2xl shadow-2xl w-full bg-base-200 md:p-12  h-screen" />
+                    <img src={image} className="max-w-sm rounded-2xl w-full bg-base-200 md:p-12 h-screen" />
                 </div>
                 <div className="space-y-6 md:w-1/2">
                     <h1 className="text-5xl font-bold font-secondary">{bookName}</h1>

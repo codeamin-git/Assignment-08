@@ -9,7 +9,7 @@ const ReadList = ({ book }) => {
         <div className="border rounded-2xl p-4">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
-                    <img src={image} className="max-w-sm rounded-lg shadow-2xl bg-base-200 p-6" />
+                    <img src={image} className="max-w-sm rounded-2xl bg-base-200 p-6" />
                 </div>
                 <div className="md:w-full space-y-4">
                     <h1 className="text-2xl font-bold font-secondary">{bookName}</h1>
