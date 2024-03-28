@@ -11,7 +11,7 @@ const NavBar = () => {
     <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
     to="/bookFair">Book Fair</NavLink></li>
     <li><NavLink className={({isActive})=> isActive? 'btn btn-ghost font-normal text-lg border-[#23BE0A] text-[#23BE0A]': 'btn btn-ghost font-normal text-lg border-none' } 
-    to="/bestSeller">Best Seller</NavLink></li>
+    to="/bestSelling">Best Selling</NavLink></li>
     
     </>
     return ( 

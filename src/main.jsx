@@ -13,6 +13,7 @@ import ListedBooks from './pages/ListedBooks';
 import PagesToRead from './pages/PagesToRead';
 import BookFair from './components/BookFair/BookFair';
 import BestSeller from './components/BestSeller/BestSeller';
+import BestSelling from './components/BestSeller/BestSeller';
 
 const router = createBrowserRouter([
   {
@@ -46,8 +47,8 @@ const router = createBrowserRouter([
         loader: ()=> fetch('/books.json')
       },
       {
-        path: "/bestSeller",
-        element: <BestSeller></BestSeller>,
+        path: "/bestSelling",
+        element: <BestSelling></BestSelling>,
         loader: ()=> fetch('/books.json')
       }
     ]

@@ -3,7 +3,6 @@ import { BsCurrencyDollar } from "react-icons/bs";
 
 const BookFair = () => {
     const books = useLoaderData();
-    console.log(books);
     return (
         <div className="font-secondary">
             <div className="text-center space-y-4 mt-4">
